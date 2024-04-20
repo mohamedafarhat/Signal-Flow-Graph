@@ -393,6 +393,7 @@ public class SignalFLow {
         allDeltasOfAllPaths = new ArrayList<>();
         loops = new ArrayList<>();
         loopsGains = new ArrayList<>();
+        allNonTouchingGains = new ArrayList<>();
         delta = 0;
         transferFunction = 0;
     }
